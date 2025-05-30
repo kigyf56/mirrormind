@@ -18,7 +18,7 @@ measurementId: "G-G0PMBR4XGW"
 const app = initializeApp(firebaseConfig);
 const db = getDatabase(app);
 
-const imageUrls = \[
+const imageUrls = \\[
 "[https://ik.imagekit.io/jpc6wnnmd/1748401415986.jpg](https://ik.imagekit.io/jpc6wnnmd/1748401415986.jpg)",
 "[https://ik.imagekit.io/jpc6wnnmd/1748401417214.jpg](https://ik.imagekit.io/jpc6wnnmd/1748401417214.jpg)",
 "[https://ik.imagekit.io/jpc6wnnmd/1748401418294.jpg](https://ik.imagekit.io/jpc6wnnmd/1748401418294.jpg)",
