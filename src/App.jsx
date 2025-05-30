@@ -30,15 +30,15 @@ const imageUrls = [
 ];
 
 function App() {
-const \[step, setStep] = useState("waiting");
-const \[roomId, setRoomId] = useState(null);
-const \[playerId, setPlayerId] = useState(null);
-const \[playerDeck, setPlayerDeck] = useState(\[]);
-const \[mirrorCard, setMirrorCard] = useState(null);
-const \[association, setAssociation] = useState("");
-const \[selectedCard, setSelectedCard] = useState(null);
-const \[result, setResult] = useState(null);
-const \[scores, setScores] = useState({ player: 0, mirror: 0 });
+const [step, setStep] = useState("waiting");
+const [roomId, setRoomId] = useState(null);
+const [playerId, setPlayerId] = useState(null);
+const [playerDeck, setPlayerDeck] = useState(\[]);
+const [mirrorCard, setMirrorCard] = useState(null);
+const [association, setAssociation] = useState("");
+const [selectedCard, setSelectedCard] = useState(null);
+const [result, setResult] = useState(null);
+const [scores, setScores] = useState({ player: 0, mirror: 0 });
 
 useEffect(() => {
 const room = "room1";
